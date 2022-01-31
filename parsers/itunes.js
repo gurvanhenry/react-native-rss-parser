@@ -108,8 +108,6 @@ exports.parseChannel = (node) => ({
   owner: getOwner(node),
   subtitle: getSubtitle(node),
   summary: getSummary(node),
-  episode: getEpisode(node),
-  season: getSeason(node),
 });
 
 exports.parseItem = (node) => ({
@@ -122,4 +120,6 @@ exports.parseItem = (node) => ({
   order: getOrder(node),
   subtitle: getSubtitle(node),
   summary: getSummary(node),
+  episode: getEpisode(node),
+  season: getSeason(node),
 });
