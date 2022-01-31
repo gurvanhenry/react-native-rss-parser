@@ -1,5 +1,16 @@
 # react-native-rss-parser
 
+🛠🛠🛠🛠🛠🛠🛠🛠 Add 31 jan 2022 🛠🛠🛠🛠🛠🛠🛠
+
+Add this to item itunes model
+
+```
+      episode: undefined,
+      season: undefined,
+```
+
+🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠
+
 > React Native compatible RSS parser
 
 [![npm version](https://badge.fury.io/js/react-native-rss-parser.svg)](https://badge.fury.io/js/react-native-rss-parser)

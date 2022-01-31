@@ -54,6 +54,12 @@ const getDuration = (node) =>
 const getExplicit = (node) =>
   utils.getElementTextContent(node, 'explicit', namespaces.itunes);
 
+const getSeason = (node) =>
+  utils.getElementTextContent(node, 'season', namespaces.itunes);
+
+const getEpisode = (node) =>
+  utils.getElementTextContent(node, 'episode', namespaces.itunes);
+
 const getImage = (node) => {
   const images = utils.getChildElements(node, 'image', namespaces.itunes);
 
@@ -102,6 +108,8 @@ exports.parseChannel = (node) => ({
   owner: getOwner(node),
   subtitle: getSubtitle(node),
   summary: getSummary(node),
+  episode: getEpisode(node),
+  season: getSeason(node),
 });
 
 exports.parseItem = (node) => ({
